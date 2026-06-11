@@ -17,4 +17,10 @@ Project covers the following areas of server development:
 - proxy for programmatic MITM proxy, supporting multiple concurrent L2 clients
 - desktop GUI for managing and interacting with Lineage2TS server infrastructure
 
+Project uses unique MMO testing:
+- custom-written **programmatic client for HighFive protocol** for login and game server packets
+- running **more than 1000 concurrent end-to-end tests** to simulate game client interactions with game and login servers
+- tests cover **player-vs-environment interactions** like creating characters, interacting with various items, character level up progression or even testing quest outcomes
+- advanced tests target **player-vs-player interactions** like trading, crafting and player group activities
+
 Standalone Windows or Linux server installation files are available (x64/arm64) in addition to OCI images for x64/arm64 cpu architectures.
