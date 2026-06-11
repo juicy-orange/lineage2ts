@@ -2,6 +2,7 @@
 Lineage2TS is an extensible server platform to create a HighFive server. Written in Typescript and Zig, and runs as Node.js applications. Aim of the project is to provide a self-hostable server for L2 HighFive client for protocol versions 267, 268, 271 and 273.
 
 Repository with code and artifacts is available at https://gitlab.com/MrTREX/lineage2ts
+
 Project is open-source using `AGPL-3.0-or-later` license.
 
 Project aims to:
